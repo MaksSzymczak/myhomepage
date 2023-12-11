@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moja pierwsza strona</title>
+    <link href="css/article.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <script defer src="js/srcipt.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Rubik+Bubbles&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="body">
+    <header>
+      <section>
+        <h1><span class="span">Cześć poznajmy sie!</span> Jestem Maks👋🏻</h1>
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li>
+              <a class="navigation__link" href="#o-mnie">📌 O mnie</a>
+            </li>
+          </ul>
+          <ul class="navigation__list">
+            <li>
+              <a class="navigation__link" href="#zainteresowania-piłka"
+                >📌 Zainteresowania</a
+              >
+            </li>
+          </ul>
+          <ul class="navigation__list">
+            <li>
+              <a class="navigation__link" href="#moje-ulubione-kluby"
+                >📌 Moje ulubione drużyny</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <!-- below button changes the background of the page -->
+        <button class="button">
+          Zmień kolor tła na <span class="buttonSpan">szary</span>
+        </button>
+      </section>
+    </header>
+    <main>
+      <section>
+        <p>
+          <button class="imageButton">Usuń zdjęcie</button>
+        </p>
+      </section>
+      <img
+        class="image"
+        src="https://i.postimg.cc/kGNsP3px/IMG-3926.jpg"
+        alt="Maksymilian Szymczak"
+      />
+      <article class="article">
+        <h2 id="o-mnie" class="article__header">O mnie</h2>
+
+        <p class="article__paragraph">
+          Cześć! nazywam sie Maksymilian Szymczak, mam 21 lat. Interesuje sie
+          piłka nożną która jest całym moim życiem. Równoczesnie zaczynam swoja
+          przygode z programowaniem. Jestem osoba która nigdy wcześniej jakoś
+          nie interesowała sie komputerami czy tez właśnie programowaniem. Mam
+          nadzieje ze dam rade ukończyć ten kurs i uda mi sie w przyszłości
+          znaleźć fajna pracę związana z tą branżą.
+        </p>
+      </article>
+
+      <article class="article">
+        <h2 id="zainteresowania-piłka" class="article__header">
+          Zainteresowania
+        </h2>
+        <p class="article__paragraph">
+          Interesuje sie i gram w piłke nożna od małego. Piłka nozna jest całym
+          moim życiem. Grałem w rożych drużynach seniorskich takich jak np.
+          Warta Poznań, Chrobry Głogów, Górnik Konin, Olimpia koło. Obecnie gram
+          w klasie okregowej w GKS Sompolno.
+        </p>
+      </article>
+      <section>
+        <table class="table">
+          <caption>
+            <h2 id="moje-ulubione-kluby" class="caption">
+              Moje ulubione kluby piłkarskie
+            </h2>
+          </caption>
+          <tr class="table__row">
+            <th scope="col" class="table__cell table__header">Club</th>
+            <th scope="col" class="table__cell table__header">League</th>
+            <th scope="col" class="table__cell table__header">Country</th>
+            <th scope="col" class="table__cell table__header">
+              Year of creation
+            </th>
+            <th scope="col" class="table__cell table__header">Club colors</th>
+          </tr>
+          <tr class="table__row">
+            <th scope="row" class="table__cell table__header">MKS Cracovia</th>
+            <td rowspan="2" class="table__cell">PKO BP Ekstraklasa</td>
+            <td rowspan="2" class="table__cell">Poland</td>
+            <td class="table__cell">1906</td>
+            <td class="table__cell">White-Red</td>
+          </tr>
+          <tr class="table__row">
+            <th scope="row" class="table__cell table__header">
+              KKS Lech Poznań
+            </th>
+            <td class="table__cell">1922</td>
+            <td class="table__cell">Blue-White</td>
+          </tr>
+          <tr class="table__row">
+            <th scope="row" class="table__cell table__header">Chelsea F.C.</th>
+            <td class="table__cell">Premier League</td>
+            <td class="table__cell">England</td>
+            <td class="table__cell">1905</td>
+            <td class="table__cell">Blue</td>
+          </tr>
+          <tr class="table__row">
+            <th scope="row" class="table__cell table__header">A.C. Milan</th>
+            <td class="table__cell">Seria A</td>
+            <td class="table__cell">Italy</td>
+            <td class="table__cell">1899</td>
+            <td class="table__cell">Red-Black</td>
+          </tr>
+        </table>
+      </section>
+    </main>
+
+    <footer class="footer">
+      Praca wykonana na potrzeby kursu YouCode - Maksymilian Szymczak
+    </footer>
+  </body>
+</html>
