@@ -1,0 +1,28 @@
+.navigation {
+    font-size: 25px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    max-width: 100%;
+}
+
+.navigation__list {
+    list-style-type: none;
+
+}
+
+.navigation__link {
+    border: 5px solid rgb(0, 213, 255);
+    border-radius: 20px;
+    background-color: rgb(0, 213, 255);
+    font-family: Verdana, Tahoma, sans-serif;
+    color: #222;
+}
+
+.navigation__link:hover {
+    color: rgb(250, 9, 9);
+    text-decoration: none;
+    border-bottom: 2px solid rgb(0, 34, 255);
+    padding: 3px;
+    text-shadow: 6px 6px 6px rgb(38, 41, 73);
+
+}

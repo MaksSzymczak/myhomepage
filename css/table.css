@@ -1,0 +1,41 @@
+.table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.caption {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 50px;
+    border-bottom: 2px solid rgb(0, 32, 139);
+    padding: 20px;
+}
+
+.table__header {
+    background-color: #aeaef1e3
+}
+
+.table__cell {
+    border: 2px solid rgb(255 0 0);
+    font-size: 25px;
+    padding: 30px;
+}
+
+.table__cell:hover {
+    color: white;
+}
+
+.table__row:hover {
+    color: #e50909;
+    background-color: hsl(214deg 36.52% 82.36%)
+}
+
+.table {
+    margin: auto;
+    border-collapse: collapse;
+    max-width: 100%;
+    overflow-x: auto;
+    font-family: "Lato", sans-serif;
+}
