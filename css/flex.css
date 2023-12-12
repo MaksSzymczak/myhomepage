@@ -1,0 +1,21 @@
+.flex__buttons {
+    flex-basis: 50%;
+}
+
+.flex {
+    max-width: 1000px;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+
+.flex__element--last {
+    max-width: 300px;
+    border-radius: 50px;
+    margin-left: 50px;
+}
+
+.flex__element {
+    flex: 1 1 auto;
+}

@@ -29,9 +29,10 @@ html {
     color: rgb(255, 255, 255);
     background-color: rgb(255, 0, 0);
     padding: 10px;
+    cursor: pointer;
 }
 
-.imageButton {
+.js__imageButton {
     border: 2px outset;
     border-radius: 7px;
     color: rgb(255, 255, 255);
@@ -40,15 +41,8 @@ html {
     padding: 10px;
 }
 
-.button {
-    cursor: pointer;
-    background-color: #ff0000;
-}
-
-.image {
-    max-width: 300px;
-    max-height: 300px;
-    border-radius: 50px;
+.add-image {
+    color: black;
 }
 
 .footer {

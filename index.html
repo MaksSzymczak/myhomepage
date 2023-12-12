@@ -8,6 +8,7 @@
     <link href="css/table.css" rel="stylesheet" />
     <link href="css/article.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
+    <link href="css/flex.css" rel="stylesheet" />
     <script defer src="js/srcipt.js"></script>
     <link
       rel="stylesheet"
@@ -52,23 +53,25 @@
             </li>
           </ul>
         </nav>
+      </header>
+      <section class="flex">
+        <div class="flex__buttons">
         <!-- below button changes the background of the page -->
-        <button class="button">
+        <button class="button flex__element">
           Zmień kolor tła na <span class="buttonSpan">szary</span>
         </button>
-      </section>
-    </header>
-    <main>
-      <section>
         <p>
-          <button class="imageButton">Usuń zdjęcie</button>
+          <button class="js__imageButton flex__element"><span class="imageButtonSpan">Usuń</span> zdjęcie</button>
         </p>
-      </section>
+      </div>
+      <div class="image__container"></div>
       <img
-        class="image"
+        class="image flex__element--last"
         src="https://i.postimg.cc/kGBwfXC1/IMG-3926-2.jpg"
         alt="Maksymilian Szymczak"
       />
+      </section>
+      <main>
       <article class="article">
         <h2 id="o-mnie" class="article__header">O mnie</h2>
 
