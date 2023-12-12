@@ -25,12 +25,12 @@ js__imageButton.addEventListener("click", () => {
 
 button.addEventListener("click", () => {
 // Toggle body on black  
-  body.classList.toggle("black");
-  buttonSpan.innerText = body.classList.contains("black") ? "jasny" : "szary";
+  body.classList.toggle("dark");
+  buttonSpan.innerText = body.classList.contains("dark") ? "jasny" : "szary";
 });
 
 let links = document.querySelectorAll(".naviLink");
-
+// Toggle naviLink in dark body 
 button.addEventListener("click", () => {
   links.forEach((link) => link.classList.toggle("darkTheme"));
 });
