@@ -8,22 +8,23 @@ let image__container = document.querySelector(".image__container");
 
 js__imageButton.addEventListener("click", () => {
   if (js__imageButton.innerText === "Usuń zdjęcie") {
-    // Usuń zdjęcie
+    // Remove image
     if (image) {
       image.remove();
     }
-    // Przełącz tekst na przycisku
+    // Toggle text on button 
     js__imageButton.innerText = "Dodaj zdjęcie";
   } else {
-    // Dodaj zdjęcie
+    // Add image 
     let clonedImage = image.cloneNode(true);
     image__container.appendChild(clonedImage);
-    // Przełącz tekst na przycisku
+    // Toggle text on button
     js__imageButton.innerText = "Usuń zdjęcie";
   }
 });
 
 button.addEventListener("click", () => {
+// Toggle body on black  
   body.classList.toggle("black");
   buttonSpan.innerText = body.classList.contains("black") ? "jasny" : "szary";
 });
@@ -31,5 +32,5 @@ button.addEventListener("click", () => {
 let links = document.querySelectorAll(".naviLink");
 
 button.addEventListener("click", () => {
-  links.forEach((link) => link.classList.toggle("black-second"));
+  links.forEach((link) => link.classList.toggle("darkTheme"));
 });
