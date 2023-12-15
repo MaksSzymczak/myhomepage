@@ -1,22 +1,24 @@
 .article {
     max-width: 750px;
     padding: 10px;
-    box-shadow: 2px 2px 8px #ccc;
-    background-color: rgb(0 213 255 / 45%);
     margin: 20px auto;
+    background-image: url(../images/fire.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
 }
 
 .article__header {
     font-family: Verdana, Tahoma, sans-serif;
     font-size: xx-large;
-    background-color: rgb(0 0 0 / 17%);
+    background-color: rgba(104, 102, 102, 0.17);
     padding: 20px;
-    box-shadow: 7px 6px 5px 0px
+    border: 4px solid white;
 }
 
 .article__paragraph {
     font-size: 20px;
-    text-shadow: 1px 1px 1px rgba(66, 68, 90, 1);
+    text-shadow: 1px 1px 1px rgb(31, 32, 43);
     line-height: 1, 5;
 
 }
@@ -24,9 +26,14 @@
 .article--last {
     max-width: 750px;
     padding: 10px;
-    box-shadow: 2px 2px 8px #ccc;
     background-image: url(../images/fire.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 20px auto;
+    border-radius: 30px;
+}
+
+.strong__paragraph {
+    font-weight: 900;
+    color: aqua;
 }
