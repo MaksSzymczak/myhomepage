@@ -10,8 +10,8 @@ html {
 
 .body {
     max-width: 1000px;
-    background-color: #eee;
-    color: black;
+    background-color: #222;
+    color: whitesmoke;
     margin: auto;
     text-align: center;
     font-family: "Lato", sans-serif;
@@ -46,21 +46,14 @@ html {
     margin-bottom: 35px;
     padding: 15px;
     font-size: 15px;
-    border-bottom: 2px solid #870101;
+    border-bottom: 2px solid #c54a15;
 }
 
 .dark {
     max-width: 1000px;
-    background-color: rgb(98, 98, 98);
-    color: rgb(255, 247, 247);
+    background-color: #adadad;
+    color: whitesmoke;
     margin: auto;
     text-align: center;
     font-family: "Lato", sans-serif;
-}
-
-.darkTheme {
-    border: 5px solid rgb(0, 213, 255);
-    border-radius: 20px;
-    background-color: rgb(0, 213, 255);
-    font-family: Verdana, Tahoma, sans-serif;
 }
