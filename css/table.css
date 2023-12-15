@@ -3,6 +3,7 @@
     border-collapse: collapse;
     width: 100%;
     overflow-x: auto;
+    background-color: bisque;
 }
 
 .caption {
@@ -14,22 +15,23 @@
 }
 
 .table__header {
-    background-color: #aeaef1e3
+    background-color: #9696d1e3
 }
 
 .table__cell {
-    border: 2px solid rgb(255 0 0);
+    border: 2px solid rgb(0, 0, 0);
     font-size: 25px;
     padding: 30px;
+    color: #222;
 }
 
 .table__cell:hover {
-    color: white;
+    color: #55ff00;
 }
 
 .table__row:hover {
-    color: #e50909;
-    background-color: hsl(214deg 36.52% 82.36%)
+    color: #55ff00;
+    background-color: hsl(215, 12%, 61%)
 }
 
 .table {
