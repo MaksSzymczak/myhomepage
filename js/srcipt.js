@@ -7,30 +7,13 @@ let image = document.querySelector(".image");
 let image__container = document.querySelector(".image__container");
 
 js__imageButton.addEventListener("click", () => {
-  if (js__imageButton.innerText === "Usuń zdjęcie") {
-    // Remove image
-    if (image) {
-      image.remove();
-    }
-    // Toggle text on button 
-    js__imageButton.innerText = "Dodaj zdjęcie";
-  } else {
-    // Add image 
-    let clonedImage = image.cloneNode(true);
-    image__container.appendChild(clonedImage);
-    // Toggle text on button
-    js__imageButton.innerText = "Usuń zdjęcie";
-  }
-});
+  image.remove();
+  js__imageButton.remove();
+})
 
 button.addEventListener("click", () => {
 // Toggle body on black  
   body.classList.toggle("dark");
-  buttonSpan.innerText = body.classList.contains("dark") ? "jasny" : "szary";
+  buttonSpan.innerText = body.classList.contains("dark") ? "czarny" : "szary";
 });
 
-let links = document.querySelectorAll(".naviLink");
-// Toggle naviLink in dark body 
-button.addEventListener("click", () => {
-  links.forEach((link) => link.classList.toggle("darkTheme"));
-});
