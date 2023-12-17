@@ -1,5 +1,6 @@
 # Maks Szymczak - my website
-![image](https://github.com/MaksSzymczak/myhomepage/assets/153558628/3809c44a-e223-4b5f-851c-8362d9cf3020)
+![My website](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMG9mcTNxMzk4cDhjM2txZnBmNTBuNWtnaGxiM293MXV0enRyYjZteSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MowhowvhizBrSvuKJr/giphy.gif)
+
 
  
 ## Demo 
